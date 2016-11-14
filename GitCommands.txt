@@ -1,5 +1,6 @@
 again
 bummer
+bummer2
 forked
 =======
 git init
