@@ -1,5 +1,10 @@
 again
+<<<<<<< HEAD
+bummer
+bummer2
+=======
 pushed
+>>>>>>> bbf07d68dbf42c60a4d28ac2194fa428aadd2dbb
 forked
 =======
 git init
