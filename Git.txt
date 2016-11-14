@@ -1,0 +1,81 @@
+[new folder]
+git clone http://192.168.1.80:8080/gitblit-1.2.1/git/GS1Barcode-FBA.git
+[rewrite current folder]
+git reset --hard HEAD
+git pull
+[push]
+cd path
+git init
+git add .
+git commit -am "new comment"
+//git remote add gitblit  proj-url
+git push gitblit master soundaryak pass@123
+http://192.168.1.80:8080/gitblit-1.2.1/git/GS1Barcode-FBA.git
+LOCAL REMOTE
+============================================================================
+========================================
+Command line instructions
+
+
+Git global setup
+
+git config --global user.name "Vikash Rajesh A K"
+git config --global user.email "vikashr@karyatech.com"
+
+Create a new repository
+
+git clone http://192.168.1.130/vikashr/CredentialsDeliverySystem.git
+cd CredentialsDeliverySystem
+touch README.md
+git add README.md
+git commit -m "add README"
+git push -u origin master
+
+Existing folder or Git repository
+
+cd existing_folder
+git init
+git remote add origin http://192.168.1.130/vikashr/CredentialsDeliverySystem.git
+git add .
+git commit
+git push -u origin master
+
+=========================================
+git remote -v // view existing remotes
+git remote rm
+git 
+git
+----
+git init
+git add -A
+git commit -m "comment"
+git remote set-url origin <url>
+git push
+========================================
+-------------------------
+add new folder to repo:
+-------------------------
+git init
+git remote add origin url
+git add -A
+git commit -m "comment"
+git push origin master
+
+==========================================
+git remote remove origin
+git remote add origin <url>
+========================================== 
+New branch:
+git checkout -b [name_of_your_new_branch]
+git merge-to master dev
+
+=======
+git pull = git fetch && git merge
+======
+git clone =>
+git init (create the local repository)
+git remote add (add the URL to that repository)
+git fetch (fetch all branches from that URL to your local repository)
+git checkout (create all the files of the main branch in your working tree)
+
+  
